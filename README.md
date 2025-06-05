@@ -39,4 +39,4 @@ The script creates a small SQLite database file named `sales_data.db`, containin
 6. **Saves** the chart as `sales_chart.png`
 
 ## Output Chart
-![Alt text](C:\Users\kunal#2000\Downloads\Task 7)
+![Sales Chart](sales_chart.png)
