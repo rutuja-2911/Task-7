@@ -11,7 +11,7 @@ This task demonstrates how to:
 - Visualize data using matplotlib
 
 ## Tools Used
-- **Python** (with built-in `sqlite3`)
+- **Python** 
 - **pandas** for data manipulation
 - **matplotlib** for data visualization
 - **Jupyter Notebook**
@@ -27,11 +27,16 @@ The script creates a small SQLite database file named `sales_data.db`, containin
 | quantity | INTEGER | Quantity sold             |
 | price    | REAL    | Price per unit            |
 
-### Sample Data:
-```plaintext
-('Apple', 10, 1.50)
-('Banana', 20, 0.80)
-('Orange', 15, 1.20)
-('Apple', 5, 1.50)
-('Banana', 10, 0.80)
-('Orange', 10, 1.20)
+
+##  What It Does
+1. **Creates** a SQLite database `sales_data.db` (if it doesn't already exist)
+2. **Creates and populates** a `sales` table with sample data
+3. **Performs** SQL aggregation:
+   - Total quantity sold per product
+   - Total revenue (quantity × price) per product
+4. **Prints** the summary using pandas
+5. **Visualizes** the revenue by product using a simple bar chart
+6. **Saves** the chart as `sales_chart.png`
+
+## Output Chart
+![Alt text](C:\Users\kunal#2000\Downloads\Task 7)
