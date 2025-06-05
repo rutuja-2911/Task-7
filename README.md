@@ -35,13 +35,3 @@ The script creates a small SQLite database file named `sales_data.db`, containin
 ('Apple', 5, 1.50)
 ('Banana', 10, 0.80)
 ('Orange', 10, 1.20)
-
-### What it does:
-**1.** Creates a SQLite database sales_data.db (if it doesn't already exist)
-**2.** Creates and populates a sales table with sample data
-**3.** Performs SQL aggregation:
-      -Total quantity sold per product
-      -Total revenue (quantity × price) per product
-**4.** Prints the summary using pandas
-**5.** Visualizes the revenue by product using a simple bar chart
-**6.** Saves the chart as `sales_chart.png`
